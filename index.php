@@ -195,7 +195,7 @@ function isLocalStorageAvailable(){
       <div class="form-text" id="basic-addon4">Add a website URL above <i class="fa-solid fa-turn-up"></i></div>
     </div>
 </form>
-<span class="git"><a href="https://github.com/qlpqlp/dogefy" target="_blank"><i class="fa-brands fa-github"></i></a> <a href="/" alt="Convert any Website to Dogecoin"><i class="fa-solid fa-paw"></i> Convert any Website to Dogecoin</a></span>
+<span class="git"><a href="https://github.com/qlpqlp/dogefyit" target="_blank"><i class="fa-brands fa-github"></i></a> <a href="/" alt="Convert any Website to Dogecoin"><i class="fa-solid fa-paw"></i> Convert any Website to Dogecoin</a></span>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script>   
     $(document).ready(function() {
