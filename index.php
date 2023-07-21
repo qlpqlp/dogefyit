@@ -197,8 +197,7 @@ function isLocalStorageAvailable(){
 </form>
 <span class="git"><a href="https://github.com/qlpqlp/dogefy" target="_blank"><i class="fa-brands fa-github"></i></a> <a href="/" alt="Convert any Website to Dogecoin"><i class="fa-solid fa-paw"></i> Convert any Website to Dogecoin</a></span>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script>
-   // Thanks to https://twitter.com/patricklodder we can check if the DogeAddress is valid
+<script>   
     $(document).ready(function() {
       <?php
         // if we request a website and dosent to convert to Dogecoin and it dosent allow it we show a sad message

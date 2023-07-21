@@ -7,8 +7,8 @@ $_GET   = filter_input_array(INPUT_GET, FILTER_SANITIZE_STRING);
 
 // So do not allow any outsider to directly use this proxy
 if ($_SERVER["REMOTE_ADDR"] != $config["server_ip"]){ 
-    echo "Much sad!";
-    exit();
+    header('Location: '.$config["server_url"].'/?sad=1');
+    die();
 };
 
 // Such add appropriate headers to allow CORS on proxy
