@@ -1,0 +1,33 @@
+body {
+  font-family: 'Comic Neue', cursive !important;
+  background-image: url("../img/bg_doge.png");
+  background-attachment: fixed;      
+  background-repeat: repeat;
+}
+a{
+  color: #444;
+  text-decoration: none;
+  cursor:pointer;
+}
+.shadow{
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.38); 
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.38);      
+}
+.shibebox{
+  margin:auto; max-width: 600px; margin-top:20px; border-radius:3rem; text-align:center;      
+}
+.shibeqr{
+  margin:auto; max-width: 330px; margin-top:-20px; border-radius:3rem; text-align:center; word-wrap: break-word;     
+}
+.shibeshare{
+  border-radius:3rem; font-weight:bold; text-align:center; word-wrap: break-word;     
+}
+.shibetips{
+  margin:auto; max-width: 600px; margin-top:20px; border-radius:3rem; z-index: 1;  
+}
+.git{
+  position: relative;z-index: 0; top: 20px;  
+}
+.swal2-popup, .swal2-confirm{
+  border-radius:3rem !important;
+}
